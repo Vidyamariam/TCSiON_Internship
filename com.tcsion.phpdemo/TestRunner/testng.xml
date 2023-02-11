@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PHP Suite">
+  <test thread-count="5" name="PHP Test">
+    <classes>
+   
+      <class name="stage1.USDPayPal"/>
+      
+      <class name="stage1.homepage_links"/>
+      <class name="stage2.AgentLogin"/>
+      <class name="SearchHotels"/>
+      <class name="stage3.ChangeBookingstatus"/>
+      <class name="stage3.DeleteRecord"/>
+      
+      <class name="stage4.CheckDashboardview"/>
+      
+      <class name="stage4.Bookingstatus"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
